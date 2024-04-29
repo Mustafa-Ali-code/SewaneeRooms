@@ -29,23 +29,47 @@ To run SewaneeRooms on your local machine, follow these steps:
    git clone https://github.com/yourgithub/sewaneerooms.git
    cd sewaneerooms
 2. **Install dependencies**
-    npm install
-    # or
-    yarn install
+     ```
+     npm install
+     ```
+    or
+
+      ```
+     yarn install
+      ```
 3. **Set up Firebase**
-   Create a Firebase project at Firebase Console
-   Add your app's Firebase configuration to src/firebaseConfig.js
+- Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+- Add your app's Firebase configuration to `src/firebaseConfig.js`
 4. **Run the Application**
-   For Android:
-   npx react-native run-android
-   For iOS:
-   cd ios && pod install && cd ..
-   npx react-native run-ios
+- For Android:
+  ```
+  npx react-native run-android
+  ```
+- For iOS:
+  ```
+  cd ios && pod install && cd ..
+  npx react-native run-ios
+  ```
 
-##Usage
+## Usage
 
-Sign Up: Create a new account and verify your email to get started.
-Log In: Log into the app using your credentials.
-Create/Join Study Rooms: Use the 'Create Study Room' feature to set up a new room or join existing ones through the 'Study Room List'.
-Manage Profile: Update your profile information in the 'Profile' section.
-Explore Map: Use the 'Map' feature to find study rooms around the campus.
+### Sign Up
+Create a new account and verify your email to get started.
+
+### Log In
+Log into the app using your credentials.
+
+### Create/Join Study Rooms
+Use the 'Create Study Room' feature to set up a new room or join existing ones through the 'Study Room List'.
+
+### Manage Profile
+Update your profile information in the 'Profile' section.
+
+### Explore Map
+Use the 'Map' feature to find study rooms around the campus.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
