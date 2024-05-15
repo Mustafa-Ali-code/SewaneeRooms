@@ -4,14 +4,14 @@ import ReactNativeAsyncStorage from '@react-native-async-storage/async-storage';
 import { getFirestore } from 'firebase/firestore';  // Import Firestore
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCKib2ZImXgVuYs8gbF2YHkrtJbQauyno4",
-  authDomain: "sewaneerooms.firebaseapp.com",
-  databaseURL: "https://sewaneerooms-default-rtdb.firebaseio.com",
-  projectId: "sewaneerooms",
-  storageBucket: "sewaneerooms.appspot.com",
-  messagingSenderId: "578304502361",
-  appId: "1:578304502361:web:c93523c886cd8568a09f48",
-  measurementId: "G-VD1QTVPMD9"
+  apiKey: "#apiKey",
+  authDomain: "authDomain",
+  databaseURL: "databaseURL",
+  projectId: "projectId",
+  storageBucket: "storageBucket",
+  messagingSenderId: "#messagingSenderId",
+  appId: "#appId",
+  measurementId: "#measurementId"
 };
 
 // Initialize Firebase
